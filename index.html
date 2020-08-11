@@ -41,8 +41,8 @@
 	                <h2>“ことば”に<br />寄り添うエージェント</h2>  
 	                <p>“ことば”は人と人をつなげる大切な概念です．すなわち，“ことば”には“たくさんの情報”が含まれているのです，Awetimeは“ことば”で“視える化”することで，あなたとあなたの仕事をサポートします．勿論，最大限の配慮をしますよ！</p>
 	                <div class="butns">
-	                  <button class="get-btn">使ってみる</button> 
-	                  <button class="learn-btn">詳しく見てみる</button> 
+	                  <a class="get-btn" href="https://app.aweti.me/">使ってみる</a> 
+	                  <a class="learn-btn" href="#welcome">詳しく見てみる</a> 
 	                </div>
 	              </div>    
 	          </div>     
@@ -52,17 +52,17 @@
 	    <div class="main-container desktop-nav nav-bkg-color hidden-md-down to d-none d-lg-block">
 	      <div class="inside-container nav-contain">
 	        <nav class="navbar navbar-expand-lg navbar-light">
-	          <img src="image/nav-logo.png" alt="">
+	          <img src="image/awetime_logo.png" alt="">
 	            <div class="navbar-nav nav-list ml-auto">
-	              <a class="menu" href="#">トップ</a>
-	              <a class="menu" href="#">機能</a>
-	              <a class="menu" href="#">ダウンロード</a>
-	              <a class="menu" href="#">説明</a>
-	              <a class="menu" href="#">スクリーンショット</a>
-	              <a class="menu" href="#">チーム</a>
-	              <a class="menu" href="#">評価</a>
-	              <a class="menu" href="#">価格</a>
-	              <a class="menu-last" href="#">連絡先</a>                      
+	              <a class="menu" href="#welcome">はじめに</a>
+	              <a class="menu" href="#features">機能</a>
+	              <a class="menu" href="#download">ダウンロード</a>
+	              <a class="menu" href="#whyUs">アピール</a>
+	              <a class="menu" href="#screenshots">スクリーンショット</a>
+	              <a class="menu" href="#team">チーム</a>
+	              <a class="menu" href="#reviews">評価</a>
+	              <a class="menu" href="#plan">価格</a>
+	              <a class="menu-last" href="https://app.aweti.me/">ログイン</a>                      
 	            </div>
 	        </nav>
 	      </div>
@@ -71,28 +71,28 @@
 	    <div class="main-container mobile-nav nav-bkg-color hidden-lg-up to d-lg-none">
 	      <div class="inside-container nav-contain">
 	        <nav class="navbar navbar-expand-lg navbar-light">
-	          <img src="image/nav-logo.png" class alt="">
+	          <img src="image/awetime_logo.png" class alt="">
 	          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	            <span class="navbar-toggler-icon"></span>
 	          </button>
 	          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	            <div class="navbar-nav nav-list ml-auto">
-					<a class="menu" href="#">トップ</a>
+					<a class="menu" href="#welcome">はじめに</a>
 					<a class="menu" href="#">機能</a>
 					<a class="menu" href="#">ダウンロード</a>
-					<a class="menu" href="#">説明</a>
+					<a class="menu" href="#whyUs">説明</a>
 					<a class="menu" href="#">スクリーンショット</a>
 					<a class="menu" href="#">チーム</a>
 					<a class="menu" href="#">評価</a>
 					<a class="menu" href="#">価格</a>
-					<a class="menu-last" href="#">連絡先</a>                        
+					<a class="menu-last" href="https://app.aweti.me/">ログイン</a>                      
 	            </div>
 	          </div>
 	        </nav>
 	      </div>
 	    </div> 
 	    <!--Welcome-->  
-	    <div class="main-container"> 
+	    <div class="main-container" id="welcome"> 
 	        <div class="inside-container">
 	          <div class="row welcome-content">
 	          	<div class="col-12">
@@ -138,15 +138,15 @@
 	          </div>
 	        </div>
 	    </div><!--Features-->
-	    <div class="main-container features-sec">
+	    <div class="main-container features-sec" id="features">
 	    	<div class="inside-container features-row">
 	    		<div class="row">
 	    			<div class="col-lg-8">
 	    				<div class="row detail-features">
 	        				<div class="col-12">
-		        				<h2>Excellent Features</h2>
+		        				<h2>主な機能</h2>
 		        				<hr>
-		        				<p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate</p>
+		        				<p>Awetimeでは，ことばを解析して“つたえる”ことを主軸に，3種類のサービスが提供されています．(多分)</p>
 		        			</div>	
 	    				</div>
 	    				<div class="row features-cols">
@@ -158,8 +158,8 @@
 	            								<i class="fas fa-star"></i>
 	            							</div>
 	            							<div class="col-9">
-	            								<h3>Unique Design</h3>
-	            								<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat </p>
+	            								<h3>Word Stock</h3>
+	            								<p>分報を解析して，作業や技術に関連する"手順"や"所感"をストックできます．<br /><br />このシステムで，ただ分報を書くだけで「あなた/貴社だけの指南書」を作成することが出来ます(*´ω｀*)</p>
 	            							</div>
 	            						</div>
 	            					</div>
@@ -169,13 +169,20 @@
 		            							<i class="fas fa-heart"></i>
 		            						</div>
 		            						<div class="col-9">
-		            							<h3>User Friendly </h3>
-		            							<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat </p>	
+		            							<h3>What's Doing?</h3>
+		            							<p>あなたの分報を時系列に並べて，「いまなにをしているか」をゆるく表示させることが出来ます！
+													<br /><br />
+													メッセージングサービスの「ステータス」機能，活用していますか？
+													Awetime What's Doingはあなたの分報から「いましていること」をゆるく公開することが出来ます．
+													IFTTTで多様なサービスに通知できる他，Awetime APIを通してあなた好みのスタイルを構築出来ますよ！
+													<br /><br />
+													※見せたくない情報について
+													分報へ流さないことで「解析の余地を無くす」ことができるほか，「流したくないステータスリスト」を作ることが出来ます．</p>	
 		            						</div>
 		            					</div>	
 	            					</div>
 	            				</div>
-	            				<div class="row">
+	            				<!-- <div class="row">
 	            					<div class="col-lg-6 services">
 	            						<div class="row">
 		            						<div class="col-3 icon-img">
@@ -198,7 +205,7 @@
 		            						</div>
 		            					</div>	
 	            					</div>  
-	            				</div>          						
+	            				</div>          						 -->
 	        				</div>
 	        			</div>
 	    			</div>
@@ -208,60 +215,77 @@
 	    		</div>
 	    	</div>
 	    </div><!--Download-->
-	    <div class="main-container downl-sec">
+	    <div class="main-container downl-sec" id="download">
 	    	<div class="inside-container">
 	    		<div class="row">
 	    			<div class="col-12 detail-down">
-	    				<h2>Download Apps iMobil Now</h2>
+	    				<h2>アプリもあるよ！</h2>
 	    				<hr>
-	    				<p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+	    				<p>AndroidやiOS，Windowsに対応しています...？（多分）以下リンクが動けば開発されています！もし全部動いてたら褒めて下さいーーー！！！</p>
 	    			</div>
 	    		</div>
 	    		<div class="row mobiles-down">
 	    			<div class="col-lg-4">
-	    				<a href="" class="apple-store">
+	    				<!-- <a href="" class="apple-store">
 	    					<i class="fas fa-mobile-alt"></i><p><span style="font-size: 20px;">Available on the</span> <br /><span style="font-size: 40px;">App Store</span></p>
-	    				</a>
+						</a> -->
+						<a href="https://dply.me/o5hpw9#install" target="_blank">
+							<i class="fab fa-apple fa-3x"></i>
+							&nbsp;
+							<p>
+								<b><span style="font-size: 21px;">Available for</span></b>
+								<br /><span style="font-size: 40px;">iOS</span>
+							</p>
+						</a>
 	    			</div>
 	    			<div class="col-lg-4">
-	    				<a href="" class="google-store">
+						<a href="https://dply.me/o5hpw9#install" target="_blank">
+							<i class="fab fa-android fa-3x"></i> 
+							&nbsp;
+							<p>
+								<b><span style="font-size: 21px;">Available for</span></b>
+								<br /><span style="font-size: 40px;">Android</span>
+							</p>
+						</a>
+						<!-- <a href="" class="google-store">
 	    					<object data="image/play-store.svg" type="image/svg+xml" id="play-store" class="play-store" name="play-store"></object><p><b><span style="font-size: 24px;">Get it on <br/>GOOGLE PLAY</span></b></p>
-	    				</a>
+	    				</a> -->
 	    			</div>
 	    			<div class="col-lg-4">
-	    				<a href="" class="windows-store">
-	    					<object data="image/windows-store.svg" type="image/svg+xml" id="windows-store" class="windows-store" name="windows-store"></object>
-	    					<p><b><span style="font-size: 21px;">Available for</span></b> <br /><span class="win-phon">Windows Phone</span></p>
+	    				<a href="" class="windows-store"> 
+							<i class="fab fa-windows fa-3x"></i> 
+	    					<!-- <object data="image/windows-store.svg" type="image/svg+xml" id="windows-store" class="windows-store" name="windows-store"></object> -->
+	    					<p><b><span style="font-size: 21px;">Available for</span></b> <br /><span class="win-phon">Windows(.exe)</span></p>
 	    				</a>
 	    			</div>
 	    		</div>
 	    	</div>
 	    </div>
-	    <div class="inside-container"><!--Why us-->
+	    <div class="inside-container" id="whyUs"><!--Why us-->
 	    	<div class="row chose">
 	    		<div class="col-lg-6 iphones-5s">
 	    			<img src="image/iphons-5.png" class="img-fluid " alt="">
 	    		</div>
 	    		<div class="col-lg-6 chose-detail">
-	    			<h2>Why Chose Us?</h2>
+	    			<h2>Awetimeは一味違う！</h2>
 	    			<hr>
-	    			<p class="desc">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh</p>
-					<p><img src="image/chose-icon-1.svg" alt="">Nam nec tellus a odio tincidunt auctor a ornare odio sed non  mauris vitae erat consequat</p>
-					<p><i class="fas fa-magnet"></i>Nam nec tellus a odio tincidunt auctor a ornare odio sed</p>
+	    			<p class="desc">これまで，〜〜〜</p>
+					<p><img src="image/chose-icon-1.svg" alt="">既存プロダクトとの違い1</p>
+					<!-- <p><i class="fas fa-magnet"></i>Nam nec tellus a odio tincidunt auctor a ornare odio sed</p>
 					<p><i class="fas fa-gift"></i>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
 					<p><i class="fas fa-cogs"></i>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
 					<p><i class="fas fa-folder-open"></i>Class aptent taciti sociosqu ad litora torquent per conubia nostra</p>
-					<p><i class="far fa-thumbs-up"></i>Lorem  non mauris vitae erat consequat auctor eu in elit.</p>
+					<p><i class="far fa-thumbs-up"></i>Lorem  non mauris vitae erat consequat auctor eu in elit.</p> -->
 	    		</div>
 	    	</div>
 	    </div>
-	    <div class="main-container screenshot"><!--Screenshot-->
+	    <div class="main-container screenshot" id="screenshots"><!--Screenshot-->
 	    	<div class="inside-container ">
 	    		<div class="row screen-detail">
 	    			<div class="col-12">
-	    				<h2>Screenshots</h2>
+	    				<h2>スクリーンショット</h2>
 	    				<hr>
-	    				<p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate</p>            				
+	    				<p>本webアプリの実際に動いている画面をお見せします！</p>            				
 	    			</div>
 	    		</div>
 	    		<div class="row">
@@ -432,7 +456,7 @@
 	    		</div>
 	    	</div>            	
 	    </div>
-	    <div class="main-container"><!--Video-->
+	    <!-- <div class="main-container">
 	    	<div class="row">
 				<div class="col-12 video-row element-with-video-bg jquery-background-video-wrapper">
 					<div class="video-sec"></div>
@@ -448,14 +472,14 @@
 					</video>
 				</div>    			
 			</div>
-	    </div>
-	    <div class="main-container team-section"><!--Team-->
+	    </div> -->
+	    <div class="main-container team-section" id="team"><!--Team-->
 	    	<div class="inside-container">
 	    		<div class="row">
 	    			<div class="col-12 detail-team">
-	    				<h2>Awesome開発チームはMt.kaniです！</h2>
+	    				<h2>Awesomeはチーム Mt.kani がつくりました！</h2>
 	    				<hr>
-	    				<p>このプロジェクトは<a href="https://tech-study-group.connpass.com/event/181146/">サマーハッカソン〜オンラインでLVupする夏合宿〜</a>で制作されました！なにかあったら気軽に教えて下さいね！</p>
+	    				<p>このWebアプリは<a href="https://tech-study-group.connpass.com/event/181146/">サマーハッカソン〜オンラインでLVupする夏合宿〜</a>で制作されました！なにかあったら気軽に教えて下さいね！</p>
 	    			</div>
 	    		</div>
 				<div class="row team-members">
@@ -469,7 +493,7 @@
 						</div>
 						<h3>Kaniyama_t</h3>
 						<p class="team-role">孤高の<s>ボッチ</s>開発者</p>
-						<p class="team-desc">どっかの高専にいる．同級生曰く「やべえやつ」．学科はロボット工学なのにAndroidとかKotlinとかネットワークとかセキュリティとかばっかやってる．すき家信者</p>
+						<p class="team-desc">どっかの高専にいる．学科はロボット工学なのにAndroidとかKotlinとかネットワークとかセキュリティとかばっかやってる．すき家のたまかけ定食はいいぞいいぞいいぞ（大事なことなので三回言いました）</p>
 						<div class="icon-team">
 							<a href="mailto:webmaster@kaniyama.net"><i class="fas fa-envelope"></i></a>
 							<a href="https://mstdn.maud.io/@kaniyama_t"><i class="fab fa-mastodon"></i></a>
@@ -480,55 +504,55 @@
 				</div>
 	    	</div>
 	    </div>
-	    <div class="main-container review-sec"><!--Reviews-->
+	    <div class="main-container review-sec" id="reviews"><!--Reviews-->
 	    	<div class="inside-container">
 	    		<div class="row">
 	    			<div class="col-lg-8 detail-reviwe">
-	    				<h2>App Reviews</h2>
+	    				<h2><s>利用者</s> デバッグしてくれた人の感想</h2>
 	    				<hr>
-	    				<p class="desc">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate</p>
+	    				<p class="desc">この欄何書けば良いんだろ...私ボッチチームなんですが...．<br />ええと，もしこのウェブアプリが公式ローンチになったら，たくさん感想コメントが来てくれると嬉しいなぁ．（感想）</p>
 	            		<div class="row">
 	            			<div class="col-12">
 	            				<div class="owl-carousel owl-theme owl-testimonial">
 								    <div class="item item-over">
 			            				<div class="testimonial">
-			            					<blockquote>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</blockquote>
+			            					<blockquote>ここにレビューが入るぞ！</blockquote>
 						                   	<div class="testimonial-arrow"><img src="image/testimonial-arrow.png" alt=""></div>
 						                    <div class="person">
 				                         		<img src="image/testimonial-picture.png" alt="">
 						                        <div class="name">
-						                           <h3>Alex Sander</h3>
-						                           <p>CEO - <a href="#">www.webdomus.net</a></p>
+						                           <h3>名前</h3>
+						                           <p>高専生 - <a href="#">hogehoge</a></p>
 						                        </div>
 			                      			</div>
 			            				</div>
 			            			</div>
-			            			<div class="item item-over">
+								    <div class="item item-over">
 			            				<div class="testimonial">
-			            					<blockquote>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</blockquote>
+			            					<blockquote>ここにレビューが入るぞ！</blockquote>
 						                   	<div class="testimonial-arrow"><img src="image/testimonial-arrow.png" alt=""></div>
 						                    <div class="person">
 				                         		<img src="image/testimonial-picture.png" alt="">
 						                        <div class="name">
-						                           <h3>Ben Ross</h3>
-						                           <p>Designer - <a href="#">www.webdomus.net</a></p>
+						                           <h3>名前</h3>
+						                           <p>高専生 - <a href="#">hogehoge</a></p>
 						                        </div>
 			                      			</div>
 			            				</div>
-			            			</div>	
-			            			<div class="item item-over">
+			            			</div>
+								    <div class="item item-over">
 			            				<div class="testimonial">
-			            					<blockquote>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</blockquote>
+			            					<blockquote>ここにレビューが入るぞ！</blockquote>
 						                   	<div class="testimonial-arrow"><img src="image/testimonial-arrow.png" alt=""></div>
 						                    <div class="person">
 				                         		<img src="image/testimonial-picture.png" alt="">
 						                        <div class="name">
-						                           <h3>Alan Tarmon</h3>
-						                           <p>Developer - <a href="#">www.webdomus.net</a></p>
+						                           <h3>名前</h3>
+						                           <p>高専生 - <a href="#">hogehoge</a></p>
 						                        </div>
 			                      			</div>
 			            				</div>
-			            			</div>		
+			            			</div>
 	            				</div>
 	            			</div>
 	            		</div>
@@ -539,8 +563,8 @@
 	    		</div>
 	    	</div>
 	    </div>
-	    <div class="main-container partners-sec"><!--Partners-->
-	    	<div class="inside-container">
+	    <div class="main-container partners-sec" id="partners"><!--Partners-->
+	    	<!-- <div class="inside-container">
 	    		<div class="row">
 	    			<div class="col-12 logo-partner">
 	    				<img src="image/fysio.png" alt="">
@@ -550,9 +574,9 @@
 	    				<img src="image/flux.png" alt="">
 	    			</div>
 	    		</div>
-	    	</div>
+	    	</div> -->
 	    </div>
-	    <div class="main-container plan-sec"><!--Plan-->
+	    <div class="main-container plan-sec" id="plan"><!--Plan-->
 	    	<div class="inside-container">
 	    		<div class="row">
 	    			<div class="col-12 detail-plan">
@@ -579,7 +603,7 @@
 	    						<p><i class="fas fa-inbox"></i>Aweti.me API（アクセス制限有）</p>
 	    						<div class="row">
 	    							<div class="col-12 button-plan">
-	    								<button type="button">はじめる</button>
+	    								<a type="button" href="https://app.aweti.me/">はじめる</a>
 	    							</div>
 	    						</div>      						
 	    					</div>
@@ -638,18 +662,18 @@
 	    		</div>
 	    	</div>
 	    </div>
-	    <div class="main-container"><!--Newsletter-->
+	    <div class="main-container" id="slack"><!--Newsletter-->
 	    	<div class="inside-container news-row">
 	    		<div class="row">
 	    			<div class="col-lg-4 detail-newsletter">
-	    				<h2>Slackへ登録して連絡を受け取ろう！</h2>
+	    				<h2>誰か来ないかな...</h2>
 	    				<hr>
 	    			</div>
 	    			<div class="col-lg-8 ">
 	    				<div class="input-group mb-3 input-mobile">
-							<input type="text" class="form-control news-form" placeholder="Enter Your Email Address Here.." aria-label="Email" >
+							<input type="text" class="form-control news-form" value="#team_mtkani" placeholder="webmaster@wxample.com" aria-label="Email" disabled>
 							<div class="input-group-append">
-							   	<button class="news-btn" type="button">SUBSCRIBE</button>
+							   	<button class="news-btn" type="button" onclick="location.href='https://app.slack.com/client/T013UC2M1AA/C0183CGF5B9'">Join!</button>
 							</div>
 						</div>
 	    			</div>
